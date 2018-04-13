@@ -81,7 +81,7 @@ Remove an entire machine (eg default) and set it up again
     $ docker-machine create --driver virtualbox default
     $ docker-machine ip
     
-    
+---
     
 # Linux commands
 
