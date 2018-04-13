@@ -82,3 +82,26 @@ Remove an entire machine (eg default) and set it up again
     $ docker-machine ip
     
     
+    
+# Linux commands
+
+## Useful linux commands
+
+### Search
+
+Search for files with extension eg .hpi
+
+    find . -name *.hpi*
+    
+Syntax
+
+    find [location] -n [matcher]
+    
+### IP
+
+When on digital ocean and you want to see the IP of the server:
+
+    ip addr show
+    
+Look for one of the "inet" rows ends with "scope global eth0"
+    
